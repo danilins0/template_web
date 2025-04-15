@@ -1,0 +1,16 @@
+/*CORLORS
+
+#1A2026 preto fosco
+#D96C6C rosa pastel
+#8C8C8C cinza
+
+font-family: 'Courier New', cursive;
+*/
+@media screen and (max-width: 1200px){
+header{
+background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)),url('../images/img_inicial.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+}

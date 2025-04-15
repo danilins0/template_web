@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="icon" type="image/png" href="./images/logo-icon.jpg">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid container">
+              <a class="navbar-brand" href="#">
+                <img src="./images/logotmpt.png" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Serviços</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <div class="card" style="width: 10rem;">
+            <img src="./images/logotmpt.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Título</h5>
+              <p class="card-text">Bem vindo ao meu site!</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Facil</li>
+              <li class="list-group-item">Prático</li>
+              <li class="list-group-item">Moderno</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">adicione seu link</a>
+            </div>
+          </div>
+
+          <div class="d-grid col-6 mx-auto">
+            <button class="btn btn-primary" type="button" id="lins">Ir para...</button>
+          </div>
+
+    </header>
+
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/carrossel1.jpg" class="d-block w-100" alt="text1">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/carrossel2.jpg" class="d-block w-100" alt="text2">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/carrossel3.jpg" class="d-block w-100" alt="text3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              Item 1
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              <strong>Insira aqui o primeiro item desejado.</strong> Coloque aqui o conteúdo ou informações adicionais da imagem.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              Item 2
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Insira aqui o segundo item desejado.</strong> Coloque aqui o conteúdo ou informações adicionais da imagem.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              Item 3
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Insira aqui o terceiro item desejado.</strong> Coloque aqui o conteudo ou informações adicionais da imagem.
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <br></br>
+    <footer>
+      <h5>Criador: Daniel SH.</h5>
+      <h1>Me acompanhe nas redes sociais!</h1>
+      <h4>Acesse:</h4>
+      <div class="d-grid gap-2 d-md-block" id="contato">
+        <a href="https://github.com/danilins0"><button class="btn btn-primary" type="button">GitHub</button></a>
+        <a href="https://www.instagram.com/_.danilins._/?next=%2F"><button class="btn btn-primary" type="button">Instagram</button></a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

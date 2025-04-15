@@ -1,0 +1,139 @@
+/*CORLORS
+
+#1A2026 preto fosco
+#D96C6C rosa pastel
+#8C8C8C cinza
+
+font-family: 'Courier New', cursive;
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    max-width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.100)),url('../images/img_inicial.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    position: relative;
+}
+nav.navbar{
+    background-color: rgb(36, 36, 36);
+}
+a.navbar-brand{
+    height: 80px;
+}
+a.navbar-brand img{
+    max-height: 100%;
+}
+.nav-link{
+    color: aliceblue;
+    font-family: 'Courier New', cursive;
+}
+.navbar-toggler{
+    color: black;
+    background-color: aliceblue;
+}
+.container-fluid{
+    margin-left: 35%;
+}
+
+div.carousel-item{
+    width: 50%;
+    height: 80vh;
+    min-height: 100%;
+}
+.carousel-item img{
+    max-width: 70%;
+    max-height: 100%;
+    margin-left: 67%;
+}
+
+.accordion-item{
+    background-color: #1A2026;
+    color: aliceblue;
+    width: 50%;
+    margin-left: 27%;
+    font-family: 'Courier New', cursive;
+}
+.accordion-button{
+    background-color: #1A2026;
+    color: aliceblue;
+    font-family: 'Courier New', cursive;
+}
+
+.card-body{
+    background-color:  rgb(36, 36, 36);
+}
+.card-img-top{
+    background-color: rgb(36, 36, 36);
+}
+.card-title{
+    color: aliceblue;
+    font-family: 'Courier New', cursive;
+}
+.card-text{
+    color: aliceblue;
+    font-family: 'Courier New', cursive;
+}
+.list-group-item{
+    background-color: rgb(36, 36, 36);
+    color: aliceblue;
+    font-family: 'Courier New', cursive;
+}
+.card{
+    margin-left: 1%;
+    height: auto;
+    margin-top: 1%;
+}
+
+#lins{
+    background-color: rgb(145, 144, 144);
+    height: 7rem;
+    border-radius: 100px;
+    font-family: 'Courier New', cursive;
+    margin-top: -240px;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.100));
+    font-size: larger;
+    margin-left: 10%;
+}
+
+footer{
+    max-width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #1A2026;
+
+    position: relative;
+}
+#contato{
+    margin-left: 44%;
+    margin-top: 1%;
+}
+h1{
+    margin-left: 27%;
+    margin-top: 5%;
+    font-family: 'Courier New', cursive;
+    color: aliceblue;
+}
+h4{
+    margin-left: 47%;
+    font-family: 'Courier New', cursive;
+    color: aliceblue;
+}
+h5{
+    margin-top: 4%;
+    margin-left: 42%;
+    font-family: 'Courier New', cursive;
+    color: aliceblue;
+}
