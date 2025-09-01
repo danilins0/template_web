@@ -51,16 +51,8 @@ a.navbar-brand img{
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.1));
 }
 
-div.carousel-item{
-    width: 50%;
-    height: 80vh;
-    min-height: 100%;
-}
-.carousel-item img{
-    max-width: 70%;
-    max-height: 100%;
-    margin-left: 67%;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.0));
+.carousel-item{
+    margin-top: 20px;
 }
 
 .accordion{
@@ -80,20 +72,6 @@ div.carousel-item{
 }
 header nav.nav-item a.nav-link :hover{
     color:#98a6b4;
-}
-.card-body{
-    background-color:  rgb(36, 36, 36);
-}
-.card-img-top{
-    background-color: rgb(36, 36, 36);
-}
-.card-title{
-    color: aliceblue;
-    font-family: 'Courier New', cursive;
-}
-.card-text{
-    color: aliceblue;
-    font-family: 'Courier New', cursive;
 }
 .list-group-item{
     background-color: rgb(36, 36, 36);
