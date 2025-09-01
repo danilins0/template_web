@@ -1,54 +1,92 @@
-/*CORLORS
+/* ===== MOBILE RESPONSIVO ===== */
+@media screen and (max-width: 1000px) {
 
-#1A2026 preto fosco
-#D96C6C rosa pastel
-#8C8C8C cinza
+    /* --- BODY --- */
+    body {
+        font-size: 14px;
+    }
 
-font-family: 'Courier New', cursive;
-*/
-@media screen and (max-width: 1200px){
-header{
-background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)),url('../images/img_inicial.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    /* --- HEADER --- */
+    header {
+        height: 60vh; /* menor altura no mobile */
+        background-position: center top;
     }
-}
 
-@media screen and (max-width: 1000px){
-    div.carousel-item{
-        width: 50%;
-        height: 40vh;
-        min-height: 100%;
+    .navbar-nav {
+        text-align: center;
+        margin-right: 0;
     }
-    .carousel-item img{
-        max-width: 70%;
-        max-height: 100%;
-        margin-left: 67%;
+
+    .container-fluid {
+        margin-left: 0;
+        padding: 0 10px;
     }
-}
-@media screen and (max-width: 600px){
+
+    .navbar-brand img {
+        max-height: 60px;
+    }
+
+    .navbar-toggler {
+        margin-left: auto;
+    }
+
+    /* --- BOTÃO IR PARA --- */
     #lins{
         border-color: rgb(145, 144, 144);
         padding: 2% 10%;
         height: 7rem;
         border-radius: 100px;
         font-family: 'Courier New', cursive;
-        margin-top: 200px;
+        margin-top: 100px;
         background: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.4));
         font-size: larger;
         margin-left: 30%;
     }
-}
-@media screen and (max-width: 990px){
-    a.navbar-brand img{
-        max-height: 100%;
-        margin-left: 88%;
+
+    /* --- ACCORDION --- */
+    .accordion-item {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 0.9rem;
     }
-}
-@media screen and (max-width: 550px){
-    a.navbar-brand img{
-        max-height: 100%;
-        margin-left: 50%;
+
+    /* --- LIST-GROUP --- */
+    .list-group-item {
+        font-size: 0.9rem;
+    }
+
+    /* --- FOOTER --- */
+    footer {
+        height: auto;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    #contato {
+        margin-top: 2%;
+        text-align: center;
+    }
+
+    #btnGH, #btnIG {
+        width: 45%;
+        margin: 0.5rem auto;
+        display: block;
+        font-size: medium;
+    }
+
+    /* --- HEADINGS --- */
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 2%;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
     }
 }
